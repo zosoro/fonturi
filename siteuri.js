@@ -7,18 +7,21 @@
 // @match   https://*.dw.com/*
 // @match   https://*.e-nergia.ro/*
 // @match   https://*.profit.ro/*
+// @match		http://*.metalhead.ro/*
+// @match		http://stiri.tvr.ro/*
 // @match		https://*.0-100.hotnews.ro/*
 // @match		https://*.4tuning.ro/*
 // @match		https://*.adevarul.ro/*
 // @match		https://*.adplayers.ro/*
 // @match		https://*.agrointel.ro/*
+// @match		https://*.aktual24.ro/
 // @match		https://*.apartmentprepper.com/*
 // @match		https://*.apti.ro/*
 // @match		https://*.aradon.ro/*
 // @match		https://*.autoblog.com/*
 // @match		https://*.avocatnet.ro/*
 // @match		https://*.b1.ro/*
-// @match		https://*.barbosul.ro/*
+// @match		https://*.b365.ro/*
 // @match		https://*.bazavan.ro/*
 // @match		https://*.best-selling-cars.com/*
 // @match		https://*.bizbrasov.ro/*
@@ -45,14 +48,16 @@
 // @match		https://*.economedia.ro/*
 // @match		https://*.economica.net
 // @match		https://*.educatieprivata.ro/*
+// @match		https://*.edupedu.ro/*
 // @match		https://*.eftimie.net
 // @match		https://*.flutureledepiatra.ro/*
 // @match		https://*.flux24.ro/*
-// @match		https://*.gandul.info
+// @match		https://*.focuspress.ro/*
+// @match		https://*.gandul.ro/*
 // @match		https://*.georgebutunoiu.com/*
 // @match		https://*.gpec.ro/*
 // @match		https://*.green-report.ro/*
-// @match		https://*.hbr.org
+// @match		https://*.hbr.org/*
 // @match		https://*.hoinaru.ro/*
 // @match		https://*.hotnews.ro/*
 // @match		https://*.incentru.ro/*
@@ -70,23 +75,23 @@
 // @match		https://*.myploiesti.ro/*
 // @match		https://*.natgeo.ro/*
 // @match		https://*.news.ro/*
-// @match		https://*.news.ro/*
 // @match		https://*.newsbv.ro/*
 // @match		https://*.next.lab501.ro/*
 // @match		https://*.outdoorlife.com/*
 // @match		https://*.outline.com/*
+// @match		https://*.panorama.ro/*
 // @match		https://*.paulkirtley.co.uk
 // @match		https://*.petapixel.com/*
 // @match		https://*.piticigratis.com/*
 // @match		https://*.politicscan.ro/*
+// @match		https://*.presshub.ro/*
 // @match		https://*.prisacariu.ro/*
 // @match		https://*.proalpin.ro/*
 // @match		https://*.profit.ro/*
 // @match		https://*.read-my-mind.r
-// @match		https://*.realitatea.net
+// @match		https://*.realitatea.net/*
 // @match		https://*.revista22.ro/*
 // @match		https://*.rfi.ro/*
-// @match		https://romania.europalibera.org
 // @match		https://*.ryanholiday.net
 // @match		https://*.sorinamatei.ro/*
 // @match		https://*.sov.ro/*
@@ -98,24 +103,32 @@
 // @match		https://*.subiectiv.ro/*
 // @match		https://*.theannemarie.ro/*
 // @match		https://*.theprepperjournal.com/*
+// @match		https://*.tion.ro/*
 // @match		https://*.tolo.ro/*
-// @match		https://*.vocea.biz
+// @match		https://*.vocea.biz/*
 // @match		https://*.wall-street.ro/*
-// @match		https://*.zenhabits.net
+// @match		https://*.zenhabits.net/*
 // @match		https://*.zf.ro/*
 // @match		https://*.zfcorporate.ro/*
 // @match		https://*.ziardecluj.ro/*
 // @match		https://*.ziare.com/*
 // @match		https://*.ziaruldeiasi.ro/*
 // @match		https://*.zvoner.ro/*
-// @match		https://*.tion.ro/*
-// @match		https://*.edupedu.ro/*
+// @match		https://*.politichii.ro/*
+// @match		https://*.revistacariere.ro/*
+// @match		https://*.buletin.de/*
+// @match		https://*.gazetadecluj.ro/*
+// @match		https://*.monitorulsv.ro/*
+// @match		https://*.reporteris.ro/*
+// @match		https://*.alba24.ro/*
+// @match		https://*.avc.com/*
+// @match		https://romania.europalibera.org/*
 // ==/UserScript==
 
 (function () {
 var
-css = '.Ak,.ii,.post,.postcolor,div,input,p,select,span,td,textarea, single__excerpt{font-family:"PT Serif"!important;font-size:18px!important;font-weight:400!important;font-style:normal!important;line-height:26px!important}';
-css += 'h1, h2, h5 { font-family:"PT Serif"!important;font-size:26px!important;font-weight:bold!important;font-style:normal!important;line-height:36px!important}}';
+css = '.Ak,.ii,.post,.postcolor,div,input,p,select,span,td,textarea, single__excerpt, strong {font-family:"PT Serif"!important;font-size:18px!important;font-weight:400!important;font-style:normal!important;line-height:26px!important}';
+css += 'h1, h2, h5 { font-family:"PT Serif"!important;font-size:26px!important;font-weight:semibold!important;font-style:normal!important;line-height:30px!important}}';
 
     if (typeof GM_addStyle != "undefined") {
         GM_addStyle(css);
