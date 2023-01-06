@@ -123,6 +123,7 @@
 // @match		https://*.alba24.ro/*
 // @match		https://*.avc.com/*
 // @match		https://romania.europalibera.org/*
+// @match		https://*.ziuaconstanta.ro/*
 // ==/UserScript==
 
 (function () {
