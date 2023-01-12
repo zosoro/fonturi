@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Stylebot pentru siteuri
-// @version      1.1
+// @version      1.1.1
 // @description  schimbat fonturi pe site-uri încremenite în trecut
 // @icon https://images2.imgbox.com/5d/75/KgSfjDTK_o.png
 // @author       Zoso
@@ -124,6 +124,7 @@
 // @match		https://*.avc.com/*
 // @match		https://romania.europalibera.org/*
 // @match		https://*.ziuaconstanta.ro/*
+// @match		https://*.biziday.ro/*
 // ==/UserScript==
 
 (function () {
