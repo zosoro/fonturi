@@ -3,6 +3,10 @@
 // @version      1.1.1
 // @description  schimbat fonturi pe site-uri încremenite în trecut
 // @icon https://images2.imgbox.com/5d/75/KgSfjDTK_o.png
+// @updateURL	https://raw.githubusercontent.com/zosoro/fonturi/main/siteuri.js
+// @downloadURL	https://raw.githubusercontent.com/zosoro/fonturi/main/siteuri.js
+// @homepage	https://github.com/zosoro/fonturi
+// @supportURL	https://github.com/zosoro/fonturi/issues
 // @author       Zoso
 // @match   https://*.dw.com/*
 // @match   https://*.e-nergia.ro/*
@@ -120,10 +124,7 @@
 // @match		https://*.gazetadecluj.ro/*
 // @match		https://*.monitorulsv.ro/*
 // @match		https://*.reporteris.ro/*
-// @match		https://*.alba24.ro/*
-// @match		https://*.avc.com/*
 // @match		https://romania.europalibera.org/*
-// @match		https://*.ziuaconstanta.ro/*
 // @match		https://*.biziday.ro/*
 // ==/UserScript==
 
