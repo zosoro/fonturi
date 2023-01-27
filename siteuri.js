@@ -126,6 +126,9 @@
 // @match		https://*.reporteris.ro/*
 // @match		https://romania.europalibera.org/*
 // @match		https://*.biziday.ro/*
+// @match		https://*.ziuaconstanta.ro/*
+// @match		https://*.0-100.ro/*
+// @match		https://*.presshub.ro/*
 // ==/UserScript==
 
 (function () {
