@@ -1,24 +1,19 @@
 // ==UserScript==
 // @name         Stylebot pentru forumuri
-// @version      1.1
+// @version      1.1.1
 // @description  schimbat fonturi
 // @icon https://images2.imgbox.com/5d/75/KgSfjDTK_o.png
+// @updateURL	https://raw.githubusercontent.com/zosoro/fonturi/main/forumuri.js
+// @downloadURL	https://raw.githubusercontent.com/zosoro/fonturi/main/forumuri.js
 // @author       Zoso
-// @match		https://*.bitcointalk.org
-// @match		https://*.bladeforums.com/*
-// @match		https://*.bmwclub.ro/*
-// @match		https://*.clubaudi.ro/*
-// @match		https://*.daciaclub.ro/*
-// @match		https://*.motociclism.ro/*
-// @match		https://*.mygarage.ro/*
-// @match		https://*.mygarage.ro/*
-// @match		https://*.nimfomane.com/*
-// @match		https://*.peugeotclubromania.ro/*
-// @match		https://*.reno.ro/*
-// @match		https://*.skyscrapercity.com/*
-// @match		https://*.subarufanclub.ro/*
-// @match		https://*.suzuki-club.ro/*
-// @match		https://*.vwforum.ro/*
+// @match		https://aradon.ro/*
+// @match		https://bitcointalk.org
+// @match		https://bladeforums.com/*
+// @match		https://bmwclub.ro/*
+// @match		https://centbrowser.com/*/forum
+// @match		https://clubaudi.ro/*
+// @match		https://cswarzone.com/*
+// @match		https://daciaclub.ro/*
 // @match		https://dashcamtalk.com/*
 // @match		https://forestryforum.com/*
 // @match		https://forum.4tuning.ro/*
@@ -27,6 +22,21 @@
 // @match		https://forum.peundemerg.ro/*
 // @match		https://forum.seopedia.ro/*
 // @match		https://forum.softpedia.com/*
+// @match		https://m.hotnews.ro/*
+// @match		https://mgtow.com/*
+// @match		https://motociclism.ro/*
+// @match		https://mygarage.ro/*
+// @match		https://mygarage.ro/*
+// @match		https://nimfomane.com/*
+// @match		https://peugeotclubromania.ro/*
+// @match		https://reno.ro/*
+// @match		https://skyscrapercity.com/*
+// @match		https://subarufanclub.ro/*
+// @match		https://subaruforester.org
+// @match		https://subaruxvforum.com/*
+// @match		https://suzuki-club.ro/*
+// @match		https://vwforum.ro/*
+// @match		https://www.mygarage.ro/*
 
 // ==/UserScript==
 
