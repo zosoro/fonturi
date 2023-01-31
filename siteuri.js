@@ -92,7 +92,6 @@
 // @match		https://*.prisacariu.ro/*
 // @match		https://*.proalpin.ro/*
 // @match		https://*.profit.ro/*
-// @match		https://*.read-my-mind.r
 // @match		https://*.realitatea.net/*
 // @match		https://*.revista22.ro/*
 // @match		https://*.rfi.ro/*
