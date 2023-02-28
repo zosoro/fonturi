@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Stylebot pentru siteuri
-// @version      1.1.2
+// @version      1.1.3
 // @description  schimbat fonturi pe site-uri încremenite în trecut
 // @icon https://images2.imgbox.com/5d/75/KgSfjDTK_o.png
 // @updateURL	https://raw.githubusercontent.com/zosoro/fonturi/main/siteuri.js
@@ -8,12 +8,10 @@
 // @homepage	https://github.com/zosoro/fonturi
 // @supportURL	https://github.com/zosoro/fonturi/issues
 // @author       Zoso
-// @match   https://*.dw.com/*
-// @match   https://*.e-nergia.ro/*
-// @match   https://*.profit.ro/*
 // @match		http://*.metalhead.ro/*
 // @match		http://stiri.tvr.ro/*
 // @match		https://*.0-100.hotnews.ro/*
+// @match		https://*.0-100.ro/*
 // @match		https://*.4tuning.ro/*
 // @match		https://*.adevarul.ro/*
 // @match		https://*.adplayers.ro/*
@@ -29,7 +27,9 @@
 // @match		https://*.bazavan.ro/*
 // @match		https://*.best-selling-cars.com/*
 // @match		https://*.bizbrasov.ro/*
+// @match		https://*.biziday.ro/*
 // @match		https://*.bogdanstoica.ro/*
+// @match		https://*.buletin.de/*
 // @match		https://*.bursa.ro/*
 // @match		https://*.businessmagazin.ro/*
 // @match		https://*.bzi.ro/*
@@ -48,16 +48,19 @@
 // @match		https://*.dollo.ro/*
 // @match		https://*.dorinlazar.ro/*
 // @match		https://*.dstanca.ro/*
+// @match		https://*.dw.com/*
 // @match		https://*.ebihoreanul.ro/*
 // @match		https://*.economedia.ro/*
 // @match		https://*.economica.net
 // @match		https://*.educatieprivata.ro/*
 // @match		https://*.edupedu.ro/*
 // @match		https://*.eftimie.net
+// @match       https://*.e-nergia.ro/*
 // @match		https://*.flutureledepiatra.ro/*
 // @match		https://*.flux24.ro/*
 // @match		https://*.focuspress.ro/*
 // @match		https://*.gandul.ro/*
+// @match		https://*.gazetadecluj.ro/*
 // @match		https://*.georgebutunoiu.com/*
 // @match		https://*.gpec.ro/*
 // @match		https://*.green-report.ro/*
@@ -75,6 +78,7 @@
 // @match		https://*.mediafax.ro/*
 // @match		https://*.mirrorlessrumors.com/*
 // @match		https://*.money.ro/*
+// @match		https://*.monitorulsv.ro/*
 // @match		https://*.morethanjustsurviving.com/*
 // @match		https://*.myploiesti.ro/*
 // @match		https://*.natgeo.ro/*
@@ -87,13 +91,17 @@
 // @match		https://*.paulkirtley.co.uk
 // @match		https://*.petapixel.com/*
 // @match		https://*.piticigratis.com/*
+// @match		https://*.politichii.ro/*
 // @match		https://*.politicscan.ro/*
+// @match		https://*.presshub.ro/*
 // @match		https://*.presshub.ro/*
 // @match		https://*.prisacariu.ro/*
 // @match		https://*.proalpin.ro/*
 // @match		https://*.profit.ro/*
 // @match		https://*.realitatea.net/*
+// @match		https://*.reporteris.ro/*
 // @match		https://*.revista22.ro/*
+// @match		https://*.revistacariere.ro/*
 // @match		https://*.rfi.ro/*
 // @match		https://*.ryanholiday.net
 // @match		https://*.sorinamatei.ro/*
@@ -108,27 +116,19 @@
 // @match		https://*.theprepperjournal.com/*
 // @match		https://*.tion.ro/*
 // @match		https://*.tolo.ro/*
+// @match		https://*.turnulsfatului.ro/*
 // @match		https://*.vocea.biz/*
 // @match		https://*.wall-street.ro/*
 // @match		https://*.zenhabits.net/*
+// @match		https://*.zerohedge.com/*
 // @match		https://*.zf.ro/*
 // @match		https://*.zfcorporate.ro/*
 // @match		https://*.ziardecluj.ro/*
 // @match		https://*.ziare.com/*
 // @match		https://*.ziaruldeiasi.ro/*
-// @match		https://*.zvoner.ro/*
-// @match		https://*.politichii.ro/*
-// @match		https://*.revistacariere.ro/*
-// @match		https://*.buletin.de/*
-// @match		https://*.gazetadecluj.ro/*
-// @match		https://*.monitorulsv.ro/*
-// @match		https://*.reporteris.ro/*
-// @match		https://romania.europalibera.org/*
-// @match		https://*.biziday.ro/*
 // @match		https://*.ziuaconstanta.ro/*
-// @match		https://*.0-100.ro/*
-// @match		https://*.presshub.ro/*
-// @match		https://*.zerohedge.com/*
+// @match		https://*.zvoner.ro/*
+// @match		https://romania.europalibera.org/*
 // ==/UserScript==
 
 (function () {
