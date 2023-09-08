@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Stylebot pentru siteuri
-// @version      1.1.3
+// @version      1.1.4
 // @description  schimbat fonturi pe site-uri încremenite în trecut
 // @icon https://images2.imgbox.com/5d/75/KgSfjDTK_o.png
 // @updateURL	https://raw.githubusercontent.com/zosoro/fonturi/main/siteuri.js
@@ -129,6 +129,17 @@
 // @match		https://*.ziuaconstanta.ro/*
 // @match		https://*.zvoner.ro/*
 // @match		https://romania.europalibera.org/*
+// @match		https://*.biziday.ro/*
+// @match		https://*.ziuaconstanta.ro/*
+// @match		https://*.0-100.ro/*
+// @match		https://*.presshub.ro/*
+// @match		http://presshub.ro/*
+// @match		https://*.zerohedge.com/*
+// @match		http://luciancroitoru.ro/*
+// @match		http://presshub.ro/*
+// @match		https://*.newsweek.ro/*
+// @match		https://*.fanatik.ro/*
+// @match		https://*.radiobrasovfm.ro/*
 // ==/UserScript==
 
 (function () {
