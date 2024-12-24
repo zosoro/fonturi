@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Stylebot pentru forumuri
-// @version      1.1.1
+// @version      1.1.2
 // @description  schimbat fonturi
 // @icon https://images2.imgbox.com/5d/75/KgSfjDTK_o.png
 // @updateURL	https://raw.githubusercontent.com/zosoro/fonturi/main/forumuri.js
 // @downloadURL	https://raw.githubusercontent.com/zosoro/fonturi/main/forumuri.js
 // @author       Zoso
 // @match		https://aradon.ro/*
-// @match		https://bitcointalk.org
+// @match		https://bitcointalk.org/*
 // @match		https://bladeforums.com/*
 // @match		https://bmwclub.ro/*
 // @match		https://centbrowser.com/*/forum
@@ -32,7 +32,7 @@
 // @match		https://reno.ro/*
 // @match		https://skyscrapercity.com/*
 // @match		https://subarufanclub.ro/*
-// @match		https://subaruforester.org
+// @match		https://subaruforester.org/*
 // @match		https://subaruxvforum.com/*
 // @match		https://suzuki-club.ro/*
 // @match		https://vwforum.ro/*
